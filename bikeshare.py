@@ -273,7 +273,7 @@ def display_raw_data(city):
     inputs = ['yes','no']
 
     while display not in inputs:
-        print("I don't understand that.")
+        
         display = input('\nWould you like to view individual trip data?'
                     'Type \'yes\' or \'no\'.\n')
         display = display.strip().lower()
